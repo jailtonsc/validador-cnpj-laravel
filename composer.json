@@ -1,0 +1,20 @@
+{
+    "name": "jailtonsc/validador-cpf-laravel",
+    "description": "Validador de cnpj com suporte para laravel 5.*",
+    "keywords": ["laravel", "Cnpj"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jailton S. C.",
+            "email": "jailton.dos.santos.cruz@gmail.com"
+        }
+    ],
+    "require": {
+      "php": ">=5.5.9"
+    },
+   "autoload": {
+     "psr-4": {
+       "ValidadorCnpj\\": "src/"
+     }
+   }
+}
