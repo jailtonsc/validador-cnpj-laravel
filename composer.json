@@ -1,5 +1,5 @@
 {
-    "name": "jailtonsc/validador-cpf-laravel",
+    "name": "jailtonsc/validador-cnpj-laravel",
     "description": "Validador de cnpj com suporte para laravel 5.*",
     "keywords": ["laravel", "Cnpj"],
     "license": "MIT",
