@@ -1,24 +1,26 @@
-##README
+## README
 
 Validador de cnpj com suporte para laravel 5.*
 
-##Composer Instalação
+### Composer Instalação
 
-composer require jailtonsc/validador-cnpj-laravel
+`composer require jailtonsc/validador-cnpj-laravel`
 
-##Integração com o Laravel
+### Integração com o Laravel
 
-No arquivo config/app.php em providers coloque
+No arquivo `config/app.php` em providers coloque
 
-ValidadorCnpj\CnpjServiceProvider::class
+``` php
+ValidadorCnpj\CnpjServiceProvider::class 
+```
 
-##publish
+### publish
 
-php artisan vendor:publish
+`php artisan vendor:publish`
 
 
-##Modo de usar exemplo
-
+### Modo de usar exemplo
+``` php
 namespace App\Http\Requests;
 
 use App\Http\Requests\Request;
@@ -47,12 +49,13 @@ class ArquivoRequest extends Request
         ];
     }
 }
-
+```
 
 ou
 
-
+``` php
 $this->validate($request, [
         'cnpj' => 'cnpj',
     ]);
 
+```
